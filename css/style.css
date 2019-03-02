@@ -1,0 +1,107 @@
+.w3-top .w3-bar
+{
+	padding: 15px;
+}
+
+.w3-top .w3-bar-item
+{
+	font-size: 18px;
+}
+
+.w3-top .branding
+{
+	font-size: 24px;
+	letter-spacing: .3rem;
+}
+
+.showcase
+{
+	background: url('../img/3.jpg') no-repeat;
+	background-position: center;
+	height: 600px;
+	padding: 140px 100px;
+	color: #fff;
+}
+
+.showcase h1
+{
+	font-size: 40px;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+
+.showcase hr
+{
+	width: 100px;
+	margin: auto;
+	border-width: 3px;
+	border-color: #f44336;
+
+}
+
+.showcase p
+{
+	font-size: 16px;
+	padding-bottom: 20px;
+}
+
+.section
+{
+	padding: 40px 0;
+}
+
+.section h2
+{
+	padding: 0;
+	margin: 0;
+}
+
+.section .fa
+{
+	font-size: 50px;
+}
+
+.section img
+{
+	width: 100%;
+}
+
+#start-modal header span
+{
+	float: right;
+	padding: 13px;
+	font-size: 26px;
+	cursor: pointer;
+}
+
+#start-modal header span:hover
+{
+	color: #222;
+	transition: .5s ease-out;
+}
+
+form .w3-section label
+{
+	color: #F44336;
+}
+
+
+@media only screen and (max-width: 600px){
+	body{
+		margin-top: 190px;
+	}
+
+	.showcase{
+		height: 400px;
+		padding: 60px 0;
+	}
+}
+
+
+
+
+
+
+
+
+
